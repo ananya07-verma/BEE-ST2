@@ -1,0 +1,60 @@
+body {
+    margin: 20px auto;
+    font-family: 'Lato';
+    /* background: #666; */
+    /* background-image: url(https://marketplace.canva.com/EAFLchK7wqw/1/0/1600w/canva-beige-brown-simple-organizer-desktop-wallpaper-dSuHiVmRY8s.jpg); */
+    background-image: url(https://pbs.twimg.com/media/FCtDvmVX0AEqBhD.jpg:large);
+
+    /* background-size: contain; */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+    color: #fff;
+}
+
+#tbl {
+    width: 50rem;
+
+}
+
+#b1 {
+    margin-left: -20rem;
+
+}
+
+.text {
+    color: blanchedalmond;
+    font-weight: bolder;
+}
+
+#email {
+    background-color: burlywood;
+    font-size: large;
+}
+
+#date {
+    color: black;
+    margin-left: 35%;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+#h1,
+#h2 {
+    font-size: 80px;
+    color: golden;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e6cf00, 0 0 40px #e6cf00, 0 0 50px #e6cf00, 0 0 60px #e6cf00, 0 0 70px #e6cf00;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ffc14de7, 0 0 40px #ffc14de7, 0 0 50px #ffc14de7, 0 0 60px #ffc14de7, 0 0 70px #ffc14de7, 0 0 80px #ffc14de7;
+    }
+}
